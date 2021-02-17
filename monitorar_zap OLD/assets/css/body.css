@@ -1,0 +1,33 @@
+/* 76b852 8DC26F */
+/* line 10, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ECE5DD;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+a {
+  color: inherit;
+}
+
+/* line 18, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+.card {
+  border-radius: 5px;
+  border-radius--webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border-radius-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border-radius-border: none;
+  border-radius-margin-bottom: 30px;
+  border-radius-position: relative;
+  border-radius-display: -ms-flexbox;
+  border-radius-display: flex;
+  border-radius--ms-flex-direction: column;
+  border-radius-flex-direction: column;
+  border-radius-min-width: 0;
+  border-radius-word-wrap: break-word;
+  border-radius-background-color: #FFF;
+  border-radius-background-clip: border-box;
+  border-radius-border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius-border-radius: .25rem;
+}
+
+/*# sourceMappingURL=body.css.map */

@@ -1,0 +1,18 @@
+#modalFilter {
+    padding: 0 !important;
+}
+
+.modalFilterContent {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    max-width: 300px;
+    float: right;
+}
+.modalFilterContent .modal-header{
+    background: #f7f7f7;
+}
+
+.modalFilterContent .modal-header{
+    background: #f7f7f7;
+}

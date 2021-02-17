@@ -1,0 +1,43 @@
+/* line 63, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/ballowWhatsapp.sass */
+.chat-bubble {
+  padding: 0.3875rem;
+  margin: 0.3875rem;
+}
+
+/* line 67, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/ballowWhatsapp.sass */
+.balao-1 {
+  background: #fcfcfc !important;
+  border-radius: 5px !important;
+  display: inline-block !important;
+  width: 0 auto !important;
+  margin: 0.3875rem;
+}
+
+/* line 74, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/ballowWhatsapp.sass */
+.balao-2 {
+  background: #DCF8C6 !important;
+  border-radius: 5px !important;
+  display: inline-block !important;
+  width: 0 auto !important;
+  margin: 0.3875rem;
+}
+
+/* line 81, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/ballowWhatsapp.sass */
+.para-2 {
+  text-align: right;
+  padding: 5px;
+  margin: 0.3875rem;
+  display: inline-block !important;
+  width: auto !important;
+}
+
+/* line 88, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/ballowWhatsapp.sass */
+.para-1 {
+  text-align: left;
+  padding: 5px;
+  margin: 0.3875rem;
+  display: inline-block !important;
+  width: auto !important;
+}
+
+/*# sourceMappingURL=ballowWhatsapp.css.map */

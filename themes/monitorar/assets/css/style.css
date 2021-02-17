@@ -1,0 +1,255 @@
+.login span.error {
+    float: none;
+}
+
+span.error, label.error {
+    width: 100%;
+    margin-top: 0.15rem;
+    font-size: 80%;
+    color: #d92550;
+    float: right;
+    text-align: right;
+}
+
+.login .new-pass {
+    display: none;
+    transition: all;
+}
+
+.main-loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+/*.main-loading.active{display: flex}*/
+
+.main-loading span.spinner {
+    width: 4rem;
+    height: 4rem;
+}
+
+.container-login{
+    background-color: #3bb2b8;
+    background:#075e54;
+}
+
+/* .main {
+    overflow-y: !important;
+} */
+
+.main .content h3 {
+    margin-bottom: 0;
+}
+
+.alert-warning {
+    background: #ffe07c !important;
+    color: #b08700;
+}
+
+.user-section .nav-link {
+    line-height: 12px;
+}
+
+.user-section .nav-link, .user-section .nav-icon {
+    cursor: pointer;
+}
+
+.nav-item{
+    margin: 2px;
+}
+
+table.my-table-sticky thead th {
+    background: #FFF;
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 69px;
+}
+
+.full-height table.my-table-sticky thead th {
+    top: 0 !important;
+}
+
+.hidden {
+    width: 1px!important;
+    height: 1px!important;
+    overflow: hidden;
+}
+
+table.my-table-sticky.table-responsive tr td {
+    width: 1% !important;
+}
+
+table.my-table-sm td {
+    font-size: 11px !important;
+}
+
+.dataTables_info {
+    padding-top: 0 !important;
+}
+
+/* Start Daterangepicker */
+
+/* .daterangepicker, .daterangepicker .calendar-table {
+    background-color: #333333;
+    color: #CCC;
+}
+
+.daterangepicker.show-ranges.ltr .drp-calendar.left {
+    border-left: 1px solid #444;
+}
+
+.daterangepicker .calendar-table {
+    border: none
+}
+
+.daterangepicker .ranges li:hover {
+    background-color: #555;
+}
+
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background-color: #555;
+} */
+
+/* End Daterangepicker */
+
+form input, form select, form textarea, a.nav-link.active {
+    color: var(--color-blue) !important
+}
+
+.full-height {
+    overflow: hidden;
+    position: relative;
+}
+
+img.flag {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.opacity-10 {
+    opacity: 0.1 !important;
+}
+
+.opacity-20 {
+    opacity: 0.2 !important;
+}
+
+.opacity-30 {
+    opacity: 0.3 !important;
+}
+
+.opacity-40 {
+    opacity: 0.4 !important;
+}
+
+.opacity-50 {
+    opacity: 0.5 !important;
+}
+
+.opacity-60 {
+    opacity: 0.6 !important;
+}
+
+.opacity-70 {
+    opacity: 0.7 !important;
+}
+
+.opacity-80 {
+    opacity: 0.8 !important;
+}
+
+.opacity-90 {
+    opacity: 0.9 !important;
+}
+
+/** Messages response */
+
+.ajax_response {
+    position: fixed;
+    padding: 20px 20px 0 0;
+    z-index: 1200;
+    top: 0;
+    right: 0;
+    width: 300px;
+    max-width: 100%;
+    opacity: 0.94;
+}
+
+.ajax_response:hover {
+    opacity: 1;
+}
+
+.ajax_response .close {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    font-size: 15px;
+}
+
+.ajax_response .message {
+    color: #ffffff;
+    /* font-size: var(--font-min); */
+    font-weight: var(--weight-normal);
+    overflow: hidden;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 15px 20px 15px;
+    background: #075e54;
+    margin-bottom: 15px;
+    position: relative;
+    -webkit-border-radius: var(--radius-normal);
+    -moz-border-radius: var(--radius-normal);
+    border-radius: var(--radius-normal);
+    cursor: pointer;
+}
+
+.ajax_response .message:before {
+    flex-basis: 0;
+    margin: -5px 15px 0 0 !important;
+    font-size: calc(var(--font-max) * 1.2);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ajax_response .message_time {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dataTables_info {
+    font-size: 10px;
+}
+
+.thead{
+    background-color: #075e54;
+    color: #f8f9fa;
+}
+
+
+.page-item.active .page-link {
+    background-color: #075e54;
+    border-color: #075e54;
+}
+
+.page-link:active, .paginator_item:active{
+    padding-bottom: 8px;
+}
+
+
+.m-10-0-10{
+    margin: 10px 0 10px;
+}

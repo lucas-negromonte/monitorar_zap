@@ -1,0 +1,32 @@
+{
+    "name": "lucas-negromonte/monitorar_zap",
+    "description": "Monitorar Whatsapp",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Lucas Almeida Negromonte",
+            "email": "lucas.almeida@anexxa.com",
+            "homepage": "http://www.monitorar.info",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php",
+            "source/Boot/Minify.php"
+        ]
+    },
+    
+    "require": {
+        "league/plates": "v3.x-dev",
+        "matthiasmullie/minify": "^1.3",
+        "phpmailer/phpmailer": "v5.2.28"
+    }
+}

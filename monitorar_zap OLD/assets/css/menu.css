@@ -1,0 +1,505 @@
+/* 76b852 8DC26F */
+/* line 10, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ECE5DD;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+a {
+  color: inherit;
+}
+
+/* line 18, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/body.sass */
+.card {
+  border-radius: 5px;
+  border-radius--webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border-radius-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border-radius-border: none;
+  border-radius-margin-bottom: 30px;
+  border-radius-position: relative;
+  border-radius-display: -ms-flexbox;
+  border-radius-display: flex;
+  border-radius--ms-flex-direction: column;
+  border-radius-flex-direction: column;
+  border-radius-min-width: 0;
+  border-radius-word-wrap: break-word;
+  border-radius-background-color: #FFF;
+  border-radius-background-clip: border-box;
+  border-radius-border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius-border-radius: .25rem;
+}
+
+/* line 7, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbuttontable {
+  background-color: #25D366;
+  color: #FFF;
+}
+
+/* line 11, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbuttontable:hover {
+  color: #FFF;
+  background-color: #52e086 !important;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbutton {
+  background-color: #25D366;
+  color: #FFF;
+  width: 100%;
+  font-size: 1.0rem;
+  padding: 0.5rem;
+}
+
+/* line 22, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbutton:hover {
+  color: #FFF;
+  background-color: #33b44a !important;
+}
+
+/* line 26, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.form-control:focus:not(input) {
+  color: #FFF !important;
+  background-color: #33b44a !important;
+}
+
+/* line 30, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnmessage2 {
+  cursor: pointer;
+}
+
+/* line 33, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+#linkpassword {
+  background-color: #FFF;
+  border-radius: 0.3125rem !important;
+  color: #000;
+  padding: 0.3125rem !important;
+  margin: 0.3125rem !important;
+}
+
+/* line 41, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.linkfrase {
+  margin: 0.3125rem !important;
+}
+
+/* line 4, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+#menu-action-2, .header #menu-action-1 {
+  display: block;
+  width: 60px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 21, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+#menu-action-2 {
+  float: right;
+}
+
+/* line 26, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+i.fa {
+  font-size: 16px;
+}
+
+/* line 34, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+p {
+  font-size: 16px;
+  line-height: 1.42857143;
+}
+
+/* line 39, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: #075E54;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+
+/* line 50, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header .logo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 54, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1 {
+  float: left;
+}
+
+/* line 59, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1 i {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* line 63, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1 span {
+  width: 0px;
+  display: none;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 70, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* line 73, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1.active {
+  width: 250px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 78, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.header #menu-action-1.active span {
+  display: inline;
+  width: auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 84, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 50px;
+  height: 100%;
+  width: 60px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 97, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar:hover, .sidebar.active, .sidebar.hovered {
+  width: 250px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 102, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 107, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul li {
+  display: block;
+}
+
+/* line 110, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul li a {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+  text-align: left;
+}
+
+/* line 119, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul li a i {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  -o-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 134, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul li a span {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* line 139, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.sidebar ul li a:hover {
+  background-color: #e67e22;
+  color: #FFF;
+}
+
+/* line 143, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.l-main {
+  position: relative;
+  display: block;
+  top: 50px;
+  left: 0;
+  padding: 15px;
+  padding-left: 75px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 153, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.l-main.active {
+  padding-left: 275px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 158, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.l-main .jumbotron {
+  background-color: #fff;
+  padding: 30px !important;
+  border: 1px solid #dfe8f1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 166, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.l-main .jumbotron h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    -ms-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    -ms-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    -ms-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    -ms-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    -ms-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+/* line 219, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.swing {
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+/* line 226, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  background: white;
+}
+
+/* line 234, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+table {
+  background: white;
+}
+
+/* line 238, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/* line 242, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 245, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout code {
+  border-radius: 3px;
+}
+
+/* line 248, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout + .bs-callout {
+  margin-top: -5px;
+}
+
+/* line 251, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-default {
+  border-left-color: #777;
+}
+
+/* line 254, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-default h4 {
+  color: #777;
+}
+
+/* line 257, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-primary {
+  border-left-color: #428bca;
+}
+
+/* line 260, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-primary h4 {
+  color: #428bca;
+}
+
+/* line 263, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-success {
+  border-left-color: #5cb85c;
+}
+
+/* line 266, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-success h4 {
+  color: #5cb85c;
+}
+
+/* line 269, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-danger {
+  border-left-color: #d9534f;
+}
+
+/* line 272, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-danger h4 {
+  color: #d9534f;
+}
+
+/* line 275, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+/* line 278, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-warning h4 {
+  color: #f0ad4e;
+}
+
+/* line 281, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-info {
+  border-left-color: #5bc0de;
+}
+
+/* line 284, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+.bs-callout-info h4 {
+  color: #5bc0de;
+}
+
+/*  ##Device = Tablets, Ipads (portrait)##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 292, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .l-main {
+    padding-left: 0px;
+    padding: 0px;
+  }
+  /* line 296, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .sidebar {
+    width: 0px;
+  }
+}
+
+/* ##Device = Tablets, Ipads (landscape)##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* line 303, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .l-main {
+    padding-left: 0px;
+    padding: 0px;
+  }
+  /* line 307, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .sidebar {
+    width: 0px;
+  }
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape)##Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 314, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .l-main {
+    padding-left: 0px;
+    padding: 0px;
+  }
+  /* line 318, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .sidebar {
+    width: 0px;
+  }
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait)##Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 325, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .l-main {
+    padding-left: 0px;
+    padding: 0px;
+  }
+  /* line 329, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/menu.sass */
+  .sidebar {
+    width: 0px;
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

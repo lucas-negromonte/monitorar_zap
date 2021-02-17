@@ -1,0 +1,42 @@
+{
+    "sEmptyTable": "Ningún dato disponible en esta tabla",
+    "sInfo": "Mostrando _END_ de _TOTAL_ registros",
+    "sInfo-Old": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+    "sInfoEmpty": "Mostrando 0 de 0 registros",
+    "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+    "sInfoPostFix": "",
+    "sInfoThousands": ",",
+    "sLengthMenu": "Mostrar _MENU_ registros",
+    "sLoadingRecords": "Cargando...",
+    "sProcessing": "Procesando...",
+    "sZeroRecords": "No se encontraron registros",
+    "sSearch": "_INPUT_",
+    "searchPlaceholder": "Buscar...",
+    "sUrl": "",
+    "oPaginate": {
+        "sFirst": "Primero",
+        "sLast": "Último",
+        "sNext": "Siguiente",
+        "sPrevious": "Anterior"
+    },
+    "oAria": {
+        "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+    },
+    "select": {
+        "rows": {
+            "_": "Seleccionado %d líneas",
+            "0": "No hay líneas seleccionadas",
+            "1": "Selecionado 1 línea"
+        }
+    },
+    "buttons": {
+        "copy": "Copiar",
+        "copyTitle": "Copia exitosa",
+        "copySuccess": {
+            "1": "Una línea copiada exitosamente",
+            "_": "%d líneas copiadas con éxito"
+        },
+        "colvis": "Visibilidad"
+    }
+}

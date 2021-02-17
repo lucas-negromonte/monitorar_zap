@@ -1,0 +1,38 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.info-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #059;
+  background-color: #BEF;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.success-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #270;
+  background-color: #DFF2BF;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.warning-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+/*# sourceMappingURL=msgerror.css.map */

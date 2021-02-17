@@ -1,0 +1,190 @@
+/* line 10, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.cardconfig {
+  margin: 1rem 0;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: #fff;
+  font-weight: 400;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border-radius: .28571429rem;
+}
+
+/* line 19, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.Post::before {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(41, 75, 86, 0)), color-stop(#c30000), to(rgba(195, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(41, 75, 86, 0), #0f2027, rgba(41, 75, 86, 0));
+}
+
+/* line 22, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.Post:not(.is-loading)::before {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(41, 75, 86, 0)), color-stop(#c30000), to(rgba(195, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(41, 75, 86, 0), #0f2027, rgba(41, 75, 86, 0));
+  content: '';
+  height: 2px;
+  left: 25px;
+  position: absolute;
+  right: 25px;
+  top: -1px;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #128C7E;
+  color: #FFF;
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
+}
+
+/* line 41, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card__time {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  max-width: 80px;
+  margin-left: 15px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* line 51, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.main__cards {
+  display: block;
+  column-count: 1;
+  /* column-gap: 20px margin: 20px */
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
+}
+
+/* line 58, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+}
+
+/* line 66, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card__main {
+  position: relative;
+  padding-right: 20px;
+  background-color: #fff;
+}
+
+/* line 71, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card__row {
+  position: relative;
+  display: flex;
+  flex: 1;
+  margin: 15px 0 20px;
+}
+
+/* line 77, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.card__header-title {
+  margin: 0 20px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+
+/* line 82, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.text-light {
+  font-weight: 300;
+}
+
+/* line 85, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.main-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 94px;
+  grid-gap: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* line 97, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #fff;
+  transform: translateY(0);
+  transition: all .3s;
+  border-radius: 5px;
+}
+
+/* line 108, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #fff;
+  transform: translateY(0);
+  transition: all .3s;
+}
+
+/* line 118, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-icon--document {
+  background-color: #e67e22;
+}
+
+/* line 118, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-icon--calendar {
+  background-color: #27ae60;
+}
+
+/* line 118, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-icon--mail {
+  background-color: #e74c3c;
+}
+
+/* line 121, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 21px;
+  color: #fff;
+}
+
+/* line 131, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 136, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-title {
+  font-size: 18px;
+  color: #1BBAE1;
+  margin: 0;
+}
+
+/* line 141, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.overviewCard-subtitle {
+  margin: 2px;
+  color: #777;
+}
+
+/* line 145, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+.dashboardgraph {
+  overflow-x: auto;
+}
+
+/* line 149, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/dashboard.sass */
+#canvas {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* line 4, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+body {
+  overflow: auto;
+}
+
+/* line 7, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #33b44a;
+  z-index: 9999 !important;
+}
+
+/* line 16, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+#preloader .inner {
+  position: absolute;
+  top: 50%;
+  /* centralizar a parte interna do preload (onde fica a animação) */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 23, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.bolas > div {
+  display: inline-block;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin: 3px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: animarBola;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* line 36, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.bolas > div:nth-child(1) {
+  animation-duration: 0.75s;
+  animation-delay: 0;
+}
+
+/* line 40, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.bolas > div:nth-child(2) {
+  animation-duration: 0.75s;
+  animation-delay: 0.12s;
+}
+
+/* line 44, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.bolas > div:nth-child(3) {
+  animation-duration: 0.75s;
+  animation-delay: 0.24s;
+}
+
+@keyframes animarBola {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  16% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.7;
+  }
+  33% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* line 64, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.l-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10 !important;
+  background-color: #FFF;
+  opacity: 0.81;
+  background: url("http://zap.monitorar.info/assets/image/loaderzap.gif") 50% 50% no-repeat #FFF;
+}
+
+/* line 77, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.t-loader {
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  margin: auto;
+  color: #008216;
+  font-weight: bold;
+  font-family: inherit;
+  padding-top: 2.4rem;
+  transform: translate(-50%, -50%);
+}
+
+/* line 88, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/loader.sass */
+.t-loader span::before {
+  content: "Carregando...";
+}
+
+/*# sourceMappingURL=loader.css.map */

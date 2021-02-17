@@ -1,0 +1,53 @@
+/* line 7, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbuttontable {
+  background-color: #25D366;
+  color: #FFF;
+}
+
+/* line 11, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbuttontable:hover {
+  color: #FFF;
+  background-color: #52e086 !important;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbutton {
+  background-color: #25D366;
+  color: #FFF;
+  width: 100%;
+  font-size: 1.0rem;
+  padding: 0.5rem;
+}
+
+/* line 22, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnbutton:hover {
+  color: #FFF;
+  background-color: #33b44a !important;
+}
+
+/* line 26, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.form-control:focus:not(input) {
+  color: #FFF !important;
+  background-color: #33b44a !important;
+}
+
+/* line 30, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.btnmessage2 {
+  cursor: pointer;
+}
+
+/* line 33, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+#linkpassword {
+  background-color: #FFF;
+  border-radius: 0.3125rem !important;
+  color: #000;
+  padding: 0.3125rem !important;
+  margin: 0.3125rem !important;
+}
+
+/* line 41, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/button.sass */
+.linkfrase {
+  margin: 0.3125rem !important;
+}
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,33 @@
+/* line 1, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/whatsapp.sass */
+.heightDiv {
+  max-height: 350px;
+  min-height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #FCFCFC;
+  background-image: url(http://zap.monitorar.info/assets/image/whatsapp.png) !important;
+}
+
+/* line 9, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/whatsapp.sass */
+#tableWhatsapp_wrapper {
+  margin-right: 0.32rem !important;
+}
+
+/* line 12, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/whatsapp.sass */
+#styleScrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+/* line 18, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/whatsapp.sass */
+#styleScrollbar::-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+/* line 23, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/whatsapp.sass */
+#styleScrollbar::-webkit-scrollbar-thumb {
+  background-color: #ECE5DD;
+}
+
+/*# sourceMappingURL=whatsapp.css.map */

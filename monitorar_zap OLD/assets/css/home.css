@@ -1,0 +1,172 @@
+@import url(https:fonts.googleapis.com/css?family=Roboto:300);
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.info-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #059;
+  background-color: #BEF;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.success-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #270;
+  background-color: #DFF2BF;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.warning-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/msgerror.sass */
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+/* line 11, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  background: #075E54 !important;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.login-page {
+  padding: 8% 0 0%;
+  margin: auto;
+}
+
+/* line 19, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.img {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 10px;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  margin-top: -0.8rem;
+}
+
+/* line 27, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* line 37, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* line 48, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/* line 62, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form button:hover, .form button:active, .form button:focus {
+  background: #43A047;
+}
+
+/* line 65, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+/* line 70, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+/* line 74, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.form .register-form {
+  display: none;
+}
+
+/* line 77, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* line 83, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 88, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* line 92, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+/* line 99, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+/* line 103, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 107, ../../../../../../xampp/htdocs/monitorZap/assets/css/sass/home.sass */
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+/*# sourceMappingURL=home.css.map */

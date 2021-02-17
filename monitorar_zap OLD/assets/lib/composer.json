@@ -1,0 +1,14 @@
+{
+    "name": "api/composer-php",
+    "description": "Lib PHP",
+    "authors": [
+        {
+            "name": "kaleb Pignaton",
+            "email": "kpignaton@ymail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.3 <= 5.6.40",
+        "phpmailer/phpmailer": "~6.1"
+    }
+}
