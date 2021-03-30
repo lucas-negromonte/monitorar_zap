@@ -24,12 +24,12 @@
                 </div>
             </li>
             <!-- Usuario  -->
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
                 <strong><?= label('you_welcome') ?>, <?= session()->user->device ?></strong>
-            </li>
+            </li> -->
 
             <!-- Language  -->
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
                 <button type="button" class="btn shadow-none dropdown-toggle" id="languageDropdown" data-toggle="dropdown">
                     <img class="rounded" src="<?= theme("assets/images/languages/" . session()->user->language . ".png") ?>" style="height: 19px;width: 29px;" />
                 </button>
@@ -64,7 +64,7 @@
                     <?php endif; ?>
 
                 </div>
-            </li>
+            </li> -->
 
             <!-- filtro  -->
             <li class="nav-item div-btn-filtro" id="div-btn-filtro" style="display:none;">

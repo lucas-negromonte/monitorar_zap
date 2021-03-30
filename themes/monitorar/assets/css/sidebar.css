@@ -2,7 +2,7 @@
 
 .sidebar {
     /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364)!important; */
-    background: #154a44;
+    background: #14423d;
     /* #075e54; mais claro*/
 }
 
@@ -141,7 +141,7 @@ li.sidebar-subitem .sidebar-link:hover{
     /* background: -webkit-linear-gradient(left, #193642, #294B56, #38677C)!important;
     background: -o-linear-gradient(left, #193642, #294B56, #38677C)!important;
     background: linear-gradient(to right, #193642, #294B56, #38677C)!important; */
-    background:#075e54;
+    background:#19534d;
 
 
     font-weight: 400;

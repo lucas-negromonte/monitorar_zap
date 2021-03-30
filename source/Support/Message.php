@@ -40,7 +40,7 @@ class Message
     {
         return $this->type;
     }
-    
+
     /**
      * @param string $message
      * @return Message

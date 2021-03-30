@@ -318,7 +318,6 @@ function flash_message()
  */
 function url($path = null)
 {
-
     if (stristr($_SERVER['HTTP_HOST'], 'localhost')) {
 
         if ($path) {
@@ -368,6 +367,13 @@ function redirect($url)
 
     if (filter_input(INPUT_GET, "route", FILTER_DEFAULT) != $url) {
         $location = url($url);
+        // $location = str_replace("www.zap.monitorar.info","",$location);
+        // $location
+        // if($_SERVER['HTTP_HOST'])
+
+
+        // var_dump($url,$location);
+        // exit;
         header("Location: {$location}");
         exit();
     }

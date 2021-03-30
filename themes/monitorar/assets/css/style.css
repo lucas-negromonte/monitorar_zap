@@ -38,7 +38,7 @@ span.error, label.error {
 
 .container-login{
     background-color: #3bb2b8;
-    background:#075e54;
+    background:#14423d;
 }
 
 /* .main {
@@ -204,7 +204,7 @@ img.flag {
     align-items: center;
     width: 100%;
     padding: 15px 15px 20px 15px;
-    background: #075e54;
+    background: #14423d;
     margin-bottom: 15px;
     position: relative;
     -webkit-border-radius: var(--radius-normal);
@@ -235,14 +235,14 @@ img.flag {
 }
 
 .thead{
-    background-color: #075e54;
+    background-color: #14423d;
     color: #f8f9fa;
 }
 
 
 .page-item.active .page-link {
-    background-color: #075e54;
-    border-color: #075e54;
+    background-color: #14423d;
+    border-color: #14423d;
 }
 
 .page-link:active, .paginator_item:active{

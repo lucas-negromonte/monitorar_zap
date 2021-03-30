@@ -1,8 +1,8 @@
 <?php
 
 ob_start();
-// ini_set("display_errors", 1);
-// ini_set("error_reporting", E_ALL);
+ini_set("display_errors", 1);
+ini_set("error_reporting", E_ALL);
 error_reporting(E_ALL);
 
 require __DIR__ . '/vendor/autoload.php';
@@ -10,8 +10,6 @@ require __DIR__ . '/vendor/autoload.php';
 use Source\Core\Router\Router;
 
 $route = new Router(url(), ":");
-
-
 
 /** Authentication Routes */
 $route->setNamespace("Source\Controllers");

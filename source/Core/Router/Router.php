@@ -18,14 +18,11 @@ class Router extends Dispatch
      */
     public function __construct($projectUrl, $separator = ":")
     {
+       
         if (empty($_GET["route"])) {
-            redirect("/home/");
+            redirect("/home/"); 
             exit;  
         }
-
-        // if(empty($_GET["route"])){
-        //     $_GET["route"] = '/home';
-        // }
 
         $queryString = explode("?", $_SERVER["REQUEST_URI"]);
         $queryString = !empty($queryString[1]) ? "?" . $queryString[1] : "";
@@ -33,7 +30,7 @@ class Router extends Dispatch
         // Validando se a URL finaliza com uma "/". Se não tiver: redireciona
         if (mb_substr($_GET["route"], -1) != '/') {
             redirect($_GET["route"] . "/" . $queryString);
-        }
+        }   
 
         parent::__construct($projectUrl, $separator);
     }

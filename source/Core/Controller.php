@@ -86,7 +86,7 @@ class Controller
                 $redirect = str_replace('/login/', '', $this->url);
                 $redirect = (!empty($redirect) ? $redirect : '/home/');
                 redirect($redirect);
-            }
+            } 
         }
 
         // Verifica licença vencida - se usuario estiver logado 
